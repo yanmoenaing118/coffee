@@ -1,0 +1,107 @@
+@font-face {
+  font-family: "helveticaneueregular";
+  src: url("assets/fonts/helveticaneue-webfont.woff2") format("woff2"),
+    url("assets/fonts/helveticaneue-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "helveticaneuemedium";
+  src: url("assets/fonts/helveticaneue_medium-webfont.woff2") format("woff2"),
+    url("assets/fonts/helveticaneue_medium-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "helveticaneuelight";
+  src: url("assets/fonts/helveticaneue_light-webfont.woff2") format("woff2"),
+    url("assets/fonts/helveticaneue_light-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "andale_monoregular";
+  src: url("assets/fonts/andale-mono-webfont.woff2") format("woff2"),
+    url("assets/fonts/andale-mono-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+:root {
+  --header-height: 140px;
+  --max-width: 1280px;
+
+  --primary-color: #d59c3b;
+  --primary-color-rgb: 213, 156, 59;
+
+  --text-0: 8px;
+  --text-1: 12px;
+  --text-2: 13px;
+  --text-3: 14px;
+  --text-4: 16px;
+  --text-5: 18px;
+  --text-6: 20px;
+  --text-7: 26px;
+
+  --family-h-regular: "helveticaneueregular";
+  --family-h-light: "helveticaneuelight";
+  --family-h-medium: "helveticaneuemedium";
+  --family-andale: "andale_monoregular";
+
+  --f-helvetica: Helvetica;
+  --f-lato: "Lato", sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: inherit;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+body {
+  font-family: var(--family-h-light);
+  font-size: 1.6rem;
+  line-height: 1.6;
+  overflow-x: hidden;
+  scrollbar-color: rebeccapurple green;
+  scrollbar-width: thin;
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--primary-color); 
+}
+
+
+.mapboxgl-control-container {
+  display: none !important;
+}
+
+
+@media screen and (max-width: 992px) {
+  :root {
+    --header-height: 100px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  :root {
+    --header-height: 80px;
+  }
+}

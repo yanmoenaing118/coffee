@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26">
+  <defs>
+    <style>
+      .search-icon-svg {
+        fill: #fafafa;
+      }
+    </style>
+  </defs>
+  <g id="Group_88" data-name="Group 88" transform="translate(-2 -2)">
+    <path id="Path_2408" data-name="Path 2408" class="search-icon-svg" d="M27.675,26.158,21.847,20.33A11.2,11.2,0,1,0,2,13.223,11.254,11.254,0,0,0,13.223,24.447a11.136,11.136,0,0,0,7.107-2.6l5.828,5.828a1.088,1.088,0,0,0,.758.325,1.083,1.083,0,0,0,.758-1.842ZM4.167,13.223a9.057,9.057,0,1,1,9.057,9.057A9.08,9.08,0,0,1,4.167,13.223Z" transform="translate(0 0)"/>
+  </g>
+</svg>
